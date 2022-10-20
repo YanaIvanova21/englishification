@@ -1,0 +1,35 @@
+.home {
+  background-color: rgba(0, 74, 173, 255);
+  background-repeat: no-repeat;
+  background-position: 0 -50px;
+  padding-top: 103px;
+}
+
+@media (max-width: 991px) {
+  .home {
+    padding-top: 71px;
+  }
+}
+
+.main-banner {
+  padding: 4.2rem 0 14rem 0;
+  color: #ffffff;
+  background-size: cover;
+}
+
+@media (max-width: 991px) {
+  .main-banner {
+    padding: 1rem;
+    margin-bottom: 50px;
+  }
+}
+
+.main-banner .banner-title {
+  width: 56%;
+}
+
+@media (max-width: 991px) {
+  .main-banner .banner-title {
+    width: 100%;
+  }
+}
